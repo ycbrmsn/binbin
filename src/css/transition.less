@@ -1,0 +1,18 @@
+@animate-time: .4s; // 动画过渡时间
+
+.slide-left-enter-active {
+  -webkit-animation: slideInRight @animate-time;
+  animation: slideInRight @animate-time;
+}
+.slide-left-leave-active {
+  -webkit-animation: slideOutLeft @animate-time;
+  animation: slideOutLeft @animate-time;
+}
+.slide-right-enter-active {
+  -webkit-animation: slideInLeft @animate-time;
+  animation: slideInLeft @animate-time;
+}
+.slide-right-leave-active {
+  -webkit-animation: slideOutRight @animate-time;
+  animation: slideOutRight @animate-time;
+}

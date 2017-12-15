@@ -1,0 +1,17 @@
+<template>
+  <div>
+    <h1>您所访问的页面不存在</h1>
+    <h2><a href="/">返回主页</a></h2>
+  </div>
+</template>
+
+<script>
+export default {
+  data () {
+    return {}
+  },
+  methods: {},
+  computed: {},
+  components: {}
+}
+</script>
